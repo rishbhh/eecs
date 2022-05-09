@@ -1569,7 +1569,14 @@
   }
 }
 
+
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .offset-lg-right {
+    margin-right: 0px;
+  }
+
+
+
   .main-banner-area::before {
     width: 200px;
   }
@@ -1871,6 +1878,21 @@
     text-transform: uppercase;
   }
 
+}
+
+@media screen and (max-width:1280px) {
+  .main-banner-wrap-content h1 {
+    font-size: 36.8px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    line-height: 52px;
+  }
+
+  .main-banner-image-slides.owl-theme .owl-nav img {
+    width: 40px;
+  }
 }
 
 /*# sourceMappingURL=responsive.css.map */

@@ -106,7 +106,7 @@ jQuery(function ($) {
 		var y = e.pageY - this.offsetTop;
 		var newx = x - wx/2;
 		var newy = y - wy/2;
-		$('.expertise-shape-1, .expertise-shape-2').each(function(){
+		$('.expertise-shape-1, .expertise-shape-2, .expertise-conten-shape-1').each(function(){
 			var speed = $(this).attr('data-speed');
 			if($(this).attr('data-revert')) speed *= -.4;
 			TweenMax.to($(this), 1, {x: (1 - newx*speed), y: (1 - newy*speed)});

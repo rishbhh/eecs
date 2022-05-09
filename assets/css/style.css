@@ -1409,6 +1409,17 @@ Services Area CSS
 /*================================================
 Funfact Area CSS
 =================================================*/
+.se {
+  position: relative;
+}
+
+.se .expertise-conten-shape-1 {
+  right: 25%;
+  top: 11% !important;
+  left: unset !important;
+
+}
+
 .fun-fact-area {
   background-image: url("../images/counter-bg.png");
   background-position: center center;
@@ -2340,6 +2351,16 @@ Expertise Area CSS
 
 
 /* Solution-area Css */
+.Solution-area {
+  position: relative;
+}
+
+.Solution-area .expertise-conten-shape-1 {
+  left: 35%;
+  top: 2%;
+
+}
+
 .Solution-area .container-fluid {
   padding-left: 4%;
   padding-right: 4%;
