@@ -2,7 +2,7 @@
 Footer Area CSS
 =================================================*/
 .footer-area {
-  background-color: var(--black-color);
+  background-color: #222222;
 }
 
 .single-footer-widget {
@@ -16,6 +16,9 @@ Footer Area CSS
 .single-footer-widget p {
   margin-bottom: 0;
   color: var(--white-color);
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-weight: 100;
 }
 
 .single-footer-widget .widget-social {
@@ -41,7 +44,7 @@ Footer Area CSS
   line-height: 35px;
   background-color: var(--white-color);
   -webkit-box-shadow: 0 0 1.25rem rgba(108, 118, 134, 0.1);
-          box-shadow: 0 0 1.25rem rgba(108, 118, 134, 0.1);
+  box-shadow: 0 0 1.25rem rgba(108, 118, 134, 0.1);
   text-align: center;
   font-size: var(--font-size);
   color: var(--main-color);
@@ -54,18 +57,21 @@ Footer Area CSS
   color: var(--white-color);
   background-color: var(--main-color);
   -webkit-transform: translateY(-5px);
-          transform: translateY(-5px);
+  transform: translateY(-5px);
 }
 
 .single-footer-widget h3 {
-  font-size: 24px;
+  font-size: 18px;
   margin-bottom: 25px;
   color: var(--white-color);
   position: relative;
   padding-bottom: 5px;
+  letter-spacing: 2px;
+  font-weight: 600;
+  text-transform: uppercase;
 }
 
-.single-footer-widget h3::before {
+/* .single-footer-widget h3::before {
   content: "";
   position: absolute;
   left: 0;
@@ -73,7 +79,7 @@ Footer Area CSS
   width: 70px;
   height: 1px;
   background-color: var(--main-color);
-}
+} */
 
 .single-footer-widget .quick-links {
   padding-left: 0;
@@ -91,6 +97,9 @@ Footer Area CSS
   display: inline-block;
   color: var(--white-color);
   font-size: var(--font-size);
+  font-weight: 300;
+  letter-spacing: 1px;
+
 }
 
 .single-footer-widget .quick-links li a:hover {
@@ -111,7 +120,9 @@ Footer Area CSS
   margin-bottom: 15px;
   color: var(--white-color);
   position: relative;
-  padding-left: 25px;
+  font-size: 15px;
+  letter-spacing: 1px;
+  font-weight: 100;
 }
 
 .single-footer-widget .footer-information li a {
@@ -137,22 +148,35 @@ Footer Area CSS
 .copyright-area {
   margin-top: 75px;
   padding-bottom: 35px;
+
 }
 
 .copyright-area .copyright-area-content {
   border-top: 1px solid rgba(255, 255, 255, 0.05);
   padding-top: 30px;
   text-align: center;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .copyright-area .copyright-area-content p {
-  font-weight: 400;
+  font-weight: 100;
+  color: var(--white-color);
+  font-size: 13px;
+  letter-spacing: 1px;
+  text-align: left;
+}
+
+.copyright-area .copyright-area-content .ri {
+  text-align: right;
   color: var(--white-color);
 }
 
-.copyright-area .copyright-area-content p a {
-  display: inline-block;
-  font-weight: bold;
+.copyright-area .copyright-area-content .ri a {
+  font-size: 13px;
+  letter-spacing: 1px;
+  font-weight: 400;
+  text-align: right;
   color: var(--white-color);
 }
 
@@ -160,32 +184,132 @@ Footer Area CSS
   color: var(--main-color);
 }
 
+.subscribe_form {
+  max-width: 470px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 30px;
+
+}
+
+.subscribe_form:focus {
+  outline: none;
+}
+
+.subscribe_form .form-control {
+  border: none;
+  background-color: transparent;
+  background-clip: padding-box;
+  border: 1px solid #ced4da !important;
+}
+
+.subscribe_form .form-control:focus {
+  box-shadow: none;
+
+}
+
+.subscribe_form input {
+  height: 44px;
+}
+
+.subscribe_form button {
+  border: none;
+  height: 46px;
+  background: linear-gradient(180deg, #09C6F9 0%, #045DE9 100%);
+  color: #fff;
+  margin: -1px;
+  border-radius: 0px 4px 4px 0px;
+  width: 135px;
+  position: relative;
+  transition: all ease 0.3s;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  -o-transition: all ease 0.3s;
+  -ms-transition: all ease 0.3s;
+}
+
+.subscribe_form button:hover,
+.subscribe_form button:focus,
+.subscribe_form button:active,
+.subscribe_form button:visited {
+  color: #fff;
+  background-color: rgba(14, 208, 133, 0.77);
+  outline: none;
+  transition: all ease 0.3s;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  -o-transition: all ease 0.3s;
+  -ms-transition: all ease 0.3s;
+}
+
+.subscribe_form button:hover:before,
+.subscribe_form button:focus:before,
+.subscribe_form button:active:before,
+.subscribe_form button:visited:before {
+  background-color: rgba(14, 208, 133, 0.77);
+  transition: all ease 0.3s;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  -o-transition: all ease 0.3s;
+  -ms-transition: all ease 0.3s;
+}
+
+/* 
+.subscribe_form button:before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  height: 1px;
+  background-color: #0ed085;
+  width: 100%;
+  transition: all ease 0.3s;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  -o-transition: all ease 0.3s;
+  -ms-transition: all ease 0.3s;
+} */
+
+.subscribe_form .input-group-btn:last-child>.btn,
+.subscribe_form .input-group-btn:last-child>.btn-group {
+  z-index: 2;
+  margin-left: 0px;
+}
+
 @media only screen and (max-width: 767px) {
   .single-footer-widget.ps-5 {
     padding-left: 0 !important;
   }
+
   .single-footer-widget.ps-3 {
     padding-left: 0 !important;
   }
+
   .single-footer-widget h3 {
     font-size: 20px;
   }
+
   .single-footer-widget .quick-links li a {
     font-size: 15px;
   }
+
   .single-footer-widget .footer-information li {
     font-size: 15px;
     padding-left: 22px;
   }
+
   .single-footer-widget .footer-information li a {
     font-size: 15px;
   }
+
   .single-footer-widget .footer-information li i {
     font-size: 15px;
   }
+
   .copyright-area {
     margin-top: 25px;
   }
+
   .copyright-area .copyright-area-content p {
     font-size: 15px;
   }
@@ -195,28 +319,36 @@ Footer Area CSS
   .single-footer-widget.ps-5 {
     padding-left: 0 !important;
   }
+
   .single-footer-widget.ps-3 {
     padding-left: 0 !important;
   }
+
   .single-footer-widget h3 {
     font-size: 20px;
   }
+
   .single-footer-widget .quick-links li a {
     font-size: 15px;
   }
+
   .single-footer-widget .footer-information li {
     font-size: 15px;
     padding-left: 22px;
   }
+
   .single-footer-widget .footer-information li a {
     font-size: 15px;
   }
+
   .single-footer-widget .footer-information li i {
     font-size: 15px;
   }
+
   .copyright-area {
     margin-top: 25px;
   }
+
   .copyright-area .copyright-area-content p {
     font-size: 15px;
   }
@@ -226,22 +358,28 @@ Footer Area CSS
   .single-footer-widget.ps-5 {
     padding-left: 0 !important;
   }
+
   .single-footer-widget.ps-3 {
     padding-left: 0 !important;
   }
+
   .single-footer-widget h3 {
     font-size: 20px;
   }
+
   .single-footer-widget .quick-links li a {
     font-size: 15px;
   }
+
   .single-footer-widget .footer-information li {
     font-size: 15px;
     padding-left: 22px;
   }
+
   .single-footer-widget .footer-information li a {
     font-size: 15px;
   }
+
   .single-footer-widget .footer-information li i {
     font-size: 15px;
   }
@@ -251,24 +389,31 @@ Footer Area CSS
   .single-footer-widget.ps-5 {
     padding-left: 0 !important;
   }
+
   .single-footer-widget.ps-3 {
     padding-left: 0 !important;
   }
+
   .single-footer-widget h3 {
     font-size: 20px;
   }
+
   .single-footer-widget .quick-links li a {
     font-size: 15px;
   }
+
   .single-footer-widget .footer-information li {
     font-size: 15px;
     padding-left: 22px;
   }
+
   .single-footer-widget .footer-information li a {
     font-size: 15px;
   }
+
   .single-footer-widget .footer-information li i {
     font-size: 15px;
   }
 }
+
 /*# sourceMappingURL=footer.css.map */
