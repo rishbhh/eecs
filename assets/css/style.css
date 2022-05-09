@@ -329,19 +329,19 @@ Section Title CSS
 
 .section-title span {
   font-size: var(--font-size);
-  color: #1A1A1A;
+  color: #444;
   display: block;
   margin-bottom: 15px;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 1px;
-
+  color: #444;
 }
 
 .section-title p {
   font-family: Sarabun;
-  font-size: 21px;
-  font-weight: 500;
+  font-size: 20px;
+  font-weight: 400;
   line-height: 48px;
   letter-spacing: 0.05em;
   text-align: center;
@@ -615,6 +615,11 @@ Main Banner Area CSS
 .slides-image-item .main-banner-wrap-content h1 {
   color: #fff;
   text-shadow: 1px 1px 10px #000000b8;
+  font-size: 54px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  line-height: 75px;
+  text-transform: uppercase;
 }
 
 .main-banner-image-slides .slides-image-item img {
@@ -1454,10 +1459,11 @@ Funfact Area CSS
 
 .single-funfact-card h3 {
   line-height: 0;
-  font-size: 45px;
+  font-size: 50px;
   color: var(--white-color);
   margin-bottom: 8px;
   position: relative;
+  font-family: Sarabun;
   /* position: absolute;
   left: 0;
   top: 50%;
@@ -1473,7 +1479,7 @@ Funfact Area CSS
 }
 
 .single-funfact-card .odometer {
-  font-family: var(--main-font-family);
+  font-family: var(--second-font-family);
 }
 
 .single-funfact-card p {
@@ -1482,6 +1488,7 @@ Funfact Area CSS
   font-size: 17px;
   letter-spacing: 1px;
   margin-top: 10%;
+  text-transform: capitalize;
 }
 
 .fun-fact-shape-1 {
@@ -1585,6 +1592,10 @@ Funfact Area CSS
 
 .single-funfact-box:hover p {
   color: var(--white-color);
+}
+
+.logo-c {
+  padding-left: 30px;
 }
 
 /*================================================
@@ -2400,6 +2411,7 @@ Expertise Area CSS
 .product-card {
   text-align: center;
   margin-bottom: 20%;
+
 }
 
 .product-card img {
@@ -2417,6 +2429,24 @@ Expertise Area CSS
   letter-spacing: 0.05em;
   margin-top: 30px;
   color: #1A1A1A;
+}
+
+.tab-content>.active,
+.tab-content>.active .product-card {
+  display: block;
+  -webkit-animation-name: myMove;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in;
+}
+
+@-webkit-keyframes myMove {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
 
 /*================================================
