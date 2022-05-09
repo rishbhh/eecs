@@ -91,6 +91,7 @@ Footer Area CSS
   color: var(--white-color);
   font-size: var(--font-size);
   margin-bottom: 15px;
+  text-transform: uppercase;
 }
 
 .single-footer-widget .quick-links li a {
@@ -98,6 +99,7 @@ Footer Area CSS
   color: var(--white-color);
   font-size: var(--font-size);
   font-weight: 300;
+  text-transform: uppercase;
   letter-spacing: 1px;
 
 }
