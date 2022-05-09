@@ -1447,12 +1447,12 @@ Navbar Area CSS
   }
 
   .main-navbar .navbar .others-options {
-    display: none !important;
+    /* display: none !important; */
   }
 
-  .others-option-for-responsive {
+  /* .others-option-for-responsive {
     display: block;
-  }
+  } */
 
   .others-option-for-responsive .dot-menu {
     padding: 0 10px 0 0;
