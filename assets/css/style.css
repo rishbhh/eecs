@@ -615,11 +615,11 @@ Main Banner Area CSS
 .slides-image-item .main-banner-wrap-content h1 {
   color: #fff;
   text-shadow: 1px 1px 10px #000000b8;
-  font-size: 54px;
-  font-weight: 700;
-  letter-spacing: 1px;
-  line-height: 75px;
   text-transform: uppercase;
+}
+
+.left-ar {
+  transform: rotate(180deg);
 }
 
 .main-banner-image-slides .slides-image-item img {

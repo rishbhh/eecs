@@ -164,8 +164,8 @@ jQuery(function ($) {
 		autoplay: false,
 		items: 1,
 		navText: [
-			"<i class='ri-arrow-left-line'></i>",
-			"<i class='ri-arrow-right-line'></i>"
+			"<img class='left-ar' src='assets/images/icon-arrow.svg'>",
+			"<img src='assets/images/icon-arrow.svg'>"
 		],
 	});
 	
