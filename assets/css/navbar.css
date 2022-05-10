@@ -85,6 +85,7 @@ Navbar Area CSS
 .main-navbar .navbar .navbar-nav .nav-item a:focus,
 .main-navbar .navbar .navbar-nav .nav-item a.active {
   color: var(--main-color);
+  font-weight: 600;
 }
 
 .main-navbar .navbar .navbar-nav .nav-item a:hover::after,
