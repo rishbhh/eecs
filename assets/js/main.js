@@ -202,7 +202,7 @@ jQuery(function ($) {
 	// Testimonials Slides
 	$('.clienta-logo').owlCarousel({
 		loop: true,
-		nav: true,
+		nav: false,
 		dots: false,
 		smartSpeed: 500,
 		margin: 25,
@@ -211,13 +211,13 @@ jQuery(function ($) {
 
 		responsive: {
 			0: {
-				items: 0
+				items: 2
 			},
 			576: {
-				items: 1
+				items: 5
 			},
 			768: {
-				items: 1
+				items: 5
 			},
 			1200: {
 				items: 5

@@ -314,6 +314,11 @@ Footer Area CSS
 
   .copyright-area .copyright-area-content p {
     font-size: 15px;
+    text-align: center;
+  }
+
+  .copyright-area .copyright-area-content .ri {
+    text-align: center;
   }
 }
 
