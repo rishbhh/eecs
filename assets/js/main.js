@@ -158,10 +158,10 @@ jQuery(function ($) {
 		nav: true,
 		dots: false,
 		autoHeight: true,
-		smartSpeed: 500,
+		smartSpeed: 400,
 		// margin: 20,
 		autoplayHoverPause: true,
-		autoplay: false,
+		autoplay: true,
 		items: 1,
 		navText: [
 			"<img class='left-ar' src='assets/images/icon-arrow.svg'>",
@@ -204,9 +204,9 @@ jQuery(function ($) {
 		loop: true,
 		nav: false,
 		dots: false,
-		smartSpeed: 500,
+		smartSpeed: 400,
 		margin: 25,
-		autoplayHoverPause: true,
+		autoplayHoverPause: false,
 		autoplay: true,
 
 		responsive: {

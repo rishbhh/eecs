@@ -36,8 +36,8 @@ Navbar Area CSS
 
 .main-navbar .navbar .navbar-nav .nav-item {
   position: relative;
-  margin-left: 35px;
-  margin-right: 35px;
+  margin-left: 25px;
+  margin-right: 25px;
   padding: 0px 10px;
 }
 
@@ -73,9 +73,9 @@ Navbar Area CSS
 } */
 
 .main-navbar .navbar .navbar-nav .nav-item a i {
-  font-size: 14px;
+  font-size: 24px;
   position: relative;
-  top: 2px;
+  top: 7px;
   display: inline-block;
   margin-left: -2px;
   margin-right: -2px;
@@ -110,11 +110,11 @@ Navbar Area CSS
 
 .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu {
   border: none;
-  top: 70px;
+  top: 90px;
   left: 0;
   z-index: 99;
   opacity: 0;
-  width: 250px;
+  width: 300px;
   display: block;
   border-radius: 8px;
   padding: 10px 0;
@@ -139,6 +139,7 @@ Navbar Area CSS
   color: var(--black-color);
   font-size: var(--font-size);
   font-weight: 400;
+  text-shadow: none;
 }
 
 .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li a i {
@@ -452,6 +453,7 @@ Navbar Area CSS
   padding: 0 10px;
   -webkit-transition: var(--transition);
   transition: var(--transition);
+  display: flex;
 }
 
 .main-navbar .navbar .others-options .option-item .language-option {
