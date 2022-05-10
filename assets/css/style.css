@@ -567,9 +567,10 @@ Main Banner Area CSS
 }
 
 .main-banner-image-slides .slides-image-item .main-banner-wrap-content span {
-  font-size: 26px;
+  font-size: 21px;
   color: #ffffff;
-  font-weight: bold;
+  font-weight: 500;
+  letter-spacing: 2px;
   display: inline-block;
   margin-bottom: 20px;
   background-color: transparent;
