@@ -334,6 +334,22 @@ jQuery(function ($) {
 		preloader: false,
 		fixedContentPos: false
 	});
+/*------------------------------------------------------------------------------*/
+/* Tab
+/*------------------------------------------------------------------------------*/ 
+
+    $('.ttm-tabs').each(function() {
+    $(this).children('.content-tab').children().hide();
+    $(this).children('.content-tab').children().first().show();
+    $(this).find('.tabs').children('li').on('click', function(e) {  
+        var liActive = $(this).index(),
+            contentActive = $(this).siblings().removeClass('active').parents('.ttm-tabs').children('.content-tab').children().eq(liActive);
+        contentActive.addClass('active').fadeIn('slow');
+        contentActive.siblings().removeClass('active');
+        $(this).addClass('active').parents('.ttm-tabs').children('.content-tab').children().eq(liActive).siblings().hide();
+        e.preventDefault();
+    });
+});
 
 	// Count Time 
 	function makeTimer() {

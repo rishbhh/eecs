@@ -802,6 +802,28 @@ Navbar Area CSS
   color: var(--white-color) !important;
 }
 
+.fixed-top-black .color-sh li a {
+  color: #444 !important;
+  text-shadow: none !important;
+}
+
+.fixed-top-black {
+  border-bottom: 1px solid #444;
+  background: transparent;
+}
+
+.fixed-top-black .navbar .others-options::before,
+.fixed-top-black .navbar .others-options::after {
+  background: #444;
+}
+
+.fixed-top-black .navbar .others-options .option-item a {
+  color: #444;
+}
+
+
+
+/*  */
 .others-option-for-responsive {
   display: none;
 }
