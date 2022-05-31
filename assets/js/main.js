@@ -351,6 +351,12 @@ jQuery(function ($) {
     });
 });
 
+$(function () {
+    $('#QuestionOptions').change(function () {
+        $('#myAnswers > div').hide();
+        $('#myAnswers').find('#' + $(this).val()).fadeIn('slow');
+    });
+});
 	// Count Time 
 	function makeTimer() {
 		var endTime = new Date("September 20, 2025 17:00:00 PDT");			

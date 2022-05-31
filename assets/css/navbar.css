@@ -628,7 +628,8 @@ Navbar Area CSS
   position: relative;
   border-radius: 37px;
   z-index: 0;
-  background: linear-gradient(180deg, #09C6F9 0%, #045DE9 100%);
+  background: gradient(162.95deg, #4169E1 1.45%, #000080 100.01%);
+  ;
   -webkit-box-shadow: none;
   box-shadow: none;
   overflow: hidden;
