@@ -824,6 +824,9 @@
     margin-right: 0px;
   }
 
+  .client-left {
+    width: 200px;
+  }
 
 
   .main-banner-area::before {
@@ -1058,7 +1061,7 @@
   }
 
   .client-left {
-    background-image: url(/assets/images/about/element-card.svg);
+    background-image: url(/assets/images/about/element-card.png);
     background-size: cover;
     background-repeat: no-repeat;
     padding: 41px 40px;
@@ -1165,7 +1168,7 @@
   }
 
   .main-navbar .navbar .navbar-brand {
-    padding: 0 10% 0 0;
+    padding: 0 7% 0 0;
   }
 
   .main-navbar .navbar .navbar-brand img {
