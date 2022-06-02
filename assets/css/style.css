@@ -3795,14 +3795,15 @@ Contact Form Area CSS
   line-height: initial;
   color: var(--paragraph-color);
   background-color: var(--white-color);
-  border: 1px solid #E5E7EC;
-  -webkit-box-shadow: -12px 8px 25px rgba(217, 35, 12, 0.03);
-  box-shadow: -12px 8px 25px rgba(217, 35, 12, 0.03);
-  border-radius: 5px;
+  border: none;
+  -webkit-box-shadow: -12px 8px 25px rgb(217 35 12 / 3%);
+  box-shadow: -12px 8px 25px rgb(217 35 12 / 3%);
+  border-radius: 0px;
   -webkit-transition: var(--transition);
   transition: var(--transition);
   font-size: 15px;
   font-weight: 400;
+  border-bottom: 1px solid #E5E7EC;
 }
 
 #contactForm .form-group .form-control::-webkit-input-placeholder {

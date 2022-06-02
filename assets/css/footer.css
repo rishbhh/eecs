@@ -394,7 +394,7 @@ Footer Area CSS
 
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .single-footer-widget.ps-5 {
-    padding-left: 0 !important;
+    /* padding-left: 0 !important; */
   }
 
   .single-footer-widget.ps-3 {
@@ -402,16 +402,26 @@ Footer Area CSS
   }
 
   .single-footer-widget h3 {
-    font-size: 20px;
+    font-size: 16px;
+    margin-bottom: 17px;
+  }
+
+  .single-footer-widget .quick-links li {
+    font-size: 12px;
   }
 
   .single-footer-widget .quick-links li a {
-    font-size: 15px;
+    font-size: 12px;
   }
 
   .single-footer-widget .footer-information li {
-    font-size: 15px;
-    padding-left: 22px;
+    font-size: 14px;
+    padding-left: 0;
+  }
+
+  .single-footer-widget .widget-social li a i {
+    width: 33px;
+    height: 33px;
   }
 
   .single-footer-widget .footer-information li a {
