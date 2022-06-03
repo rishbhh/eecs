@@ -1840,6 +1840,12 @@
     overflow: hidden;
   }
 
+  .ttm-tabs.ttm-tab-style-01 .content-inner .tab-con {
+
+    bottom: 33px;
+    padding-left: 8%;
+  }
+
   .ttm-tabs.ttm-tab-style-01 ul.tabs li .number {
     margin-right: 7px;
   }
