@@ -1813,10 +1813,11 @@
 
   .expertise-content h3 {
     font-size: 24px;
-    text-align: center;
-    margin-top: 40px;
-    margin-bottom: 30px;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 0;
   }
+
 
   .ttm-tabs.ttm-tab-style-01 {
     display: block;
@@ -1830,6 +1831,17 @@
 
   .ttm-tabs.ttm-tab-style-01 ul.tabs li {
     width: 47%;
+    padding: 27px 25px 26px 22px;
+    border-right: 1px solid #efefef;
+  }
+
+  .ttm-tabs.ttm-tab-style-01 .content-tab {
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .ttm-tabs.ttm-tab-style-01 ul.tabs li .number {
+    margin-right: 7px;
   }
 
   .expertise-content .expertise-inner-box {
@@ -1841,6 +1853,19 @@
     left: 0;
     top: -6px;
     width: 30px;
+  }
+
+  .solution-content .expertise-inner-box .icon {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 15px;
+  }
+
+  .solution-content .expertise-inner-box {
+    padding-left: 18px;
+    margin-top: 3px;
+    margin-bottom: 2px;
   }
 
   .expertise-content .expertise-inner-box .icon i {
@@ -1987,7 +2012,20 @@
   }
 
   .page-banner-content h2 {
-    font-size: 25px;
+    font-size: 27px;
+    text-align: center;
+    margin-top: 60px;
+  }
+
+  .container.gallery-container {
+    background-color: #fff;
+    color: #35373a;
+    min-height: 100vh;
+    padding: 30px 0px;
+  }
+
+  .tz-gallery {
+    padding: 0px;
   }
 
   .page-banner-image {
