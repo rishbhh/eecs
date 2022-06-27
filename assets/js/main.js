@@ -199,6 +199,7 @@ jQuery(function ($) {
 		}
 	});
 	// logoSlides
+
 	// Testimonials Slides
 	$('.clienta-logo').owlCarousel({
 		loop: true,
